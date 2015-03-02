@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Yilin Wei",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "Network of Chinese major Internet companies and their subsidiaries",
+    "more": "In this graph, the color of nodes presents the type of the companies.\r\nThe color of edges shows the relation between them:\nred - the current or previous employees created this company\ngreen - the parent company invested this company\nblue - both relations\n\nData source: http://www.17startup.com/",
+    "intro": "This force layout shows the network of Alibaba, Baidu, Tencent, Sina, Shengda and their subsidiary companies."
+  },
+  "legend": {
+    "edgeLabel": "Relation",
+    "colorLabel": "Type",
+    "nodeLabel": "Company"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "type",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": true
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
