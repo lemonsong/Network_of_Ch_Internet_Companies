@@ -1,3 +1,7 @@
+This is a visualization of major Chinese Internet companies and their subsidiary companies.
+Data was scrapped from: 17startup.com
+Check the Demo: http://chineseinternet.sinaapp.com/
+
 Template provided by InteractiveVis project
 http://blogs.oii.ox.ac.uk/vis/
 https://github.com/oxfordinternetinstitute/InteractiveVis/
